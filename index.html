@@ -14,161 +14,285 @@
 </head>
 
 <body>
+    <div class="ad-left bg-dark">
+        <div class="ad-card">
+            <h2 class="title text-normal color-tgreen">airPlayground</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eligendi sequi eos! Dolore, itaque facilis sed quo non,
+            </p>
 
-    <header class="ad-header bg-white ad-flat">
-        <h2 class="title text-normal">airPlayground</h2>
-    </header>
-    <h2 class="ad-title">Button Shine</h2>
-    <br>
+            <div class="ad-list ad-hover hover-tgreen">
+                <div class="ad-item">
+                    Buttons
+                </div>
 
-    <button class="ad-btn">Default Button</button>
+                <div class="ad-item" routerLink='./cardList.html'>
+                    Card
+                </div>
 
-    <button class="ad-btn shine-pink">Shine Pink</button>
+                <div class="ad-item">
+                    List Items
+                </div>
 
-    <button class="ad-btn shine-yellow">Shine Yellow</button>
+                <div class="ad-item">
+                    Input Forms
+                </div>
 
-    <button class="ad-btn shine-tgreen">Shine tGreen</button>
+                <div class="ad-item">
+                    Typography
+                </div>
 
-    <button class="ad-btn shine-dark">Shine Dark</button>
+                <div class="ad-item">
+                    Tabs & Accordian
+                </div>
 
-    <hr>
+                <div class="ad-item">
+                    Grid System
+                </div>
+                <div class="ad-item">
+                    Quick App
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ad-right">
 
-    <h2 class="ad-title">Button Colors</h2>
-    <br>
-    <button class="ad-btn btn-prim">Prim Button</button>
+        <router-outlet>
+            <header class="ad-header bg-dark ad-flat">
+                <button class="ad-btn" id='ad-menu-trigger'>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <h2 class="title text-normal">airPlayground</h2>
+            </header>
 
-    <button class="ad-btn btn-dark">Dark Button</button>
+            <section class="ad-section">
+                <div class="wrapper">
+                    <div class="ad-row">
+                        <div class="ad-cols-4">
+                            <div class="ad-card bg-white">
+                                <h2 class="title">Button Shine</h2>
 
-    <button class="ad-btn btn-pink">Pink Button</button>
+                                <button class="ad-btn">Default Button</button>
 
-    <button class="ad-btn btn-yellow">Yellow Button</button>
+                                <button class="ad-btn shine-pink">Shine Pink</button>
 
-    <button class="ad-btn btn-tgreen">tGreen Button</button>
+                                <button class="ad-btn shine-yellow">Shine Yellow</button>
 
-    <button class="ad-btn btn-blue">Blue Button</button>
+                                <button class="ad-btn shine-tgreen">Shine tGreen</button>
 
-    <button class="ad-btn btn-red">Red Button</button>
+                                <button class="ad-btn shine-dark">Shine Dark</button>
 
-    <button class="ad-btn btn-green">Green Button</button>
+                            </div>
+                        </div>
 
-    <hr> 
-    <h2 class="ad-title">Button Types</h2>
-    <br>
-    <button class="ad-btn">Default Button</button>
+                        <div class="ad-cols-4">
+                            <div class="ad-card bg-white">
+                                <h2 class="title">Button Colors</h2>
 
-    <button class="ad-btn ad-block">Block Button</button>
+                                <button class="ad-btn btn-prim">Prim Button</button>
 
-    <button class="ad-btn ad-round">Round Button</button>
+                                <button class="ad-btn btn-dark">Dark Button</button>
 
-    <button class="ad-btn ad-flat ad-block btn-pink">Default Button</button>
+                                <button class="ad-btn btn-pink">Pink Button</button>
 
-    <hr>
-        <h2 class="ad-title">Button Styles</h2>
-        <br>
-    <button class="ad-btn btn-blue clear">Clear Button</button>
+                                <button class="ad-btn btn-yellow">Yellow Button</button>
 
-    <button class="ad-btn btn-pink ad-round outline">Outline Button</button>
-    <button class="ad-btn btn-dark ad-round outline">Outline Button</button>
+                                <button class="ad-btn btn-tgreen">tGreen Button</button>
 
-    <hr>
+                                <button class="ad-btn btn-blue">Blue Button</button>
 
-    <button class="ad-btn">Default Button</button>
+                                <button class="ad-btn btn-red">Red Button</button>
 
-    <button class="ad-btn ad-round ad-flat btn-pink">
-        <i class="fa fa-user"></i>
-        Select User
-    </button>
+                                <button class="ad-btn btn-green">Green Button</button>
 
-    <button class="ad-btn">
-        <i class="fa fa-user"></i>
-    </button>
+                            </div>
+                        </div>
 
-    <button class="ad-btn ad-icon ad-round ad-flat btn-prim">
-        <i class="fa fa-twitter"></i>
-    </button>
+                        <div class="ad-cols-4">
+                            <div class="ad-card bg-white">
+                                <h2 class="title">Button Types</h2>
+                                <button class="ad-btn">Default Button</button>
 
-    <button class="ad-btn ad-icon ad-round ad-flat btn-blue">
-        <i class="fa fa-facebook"></i>
-    </button>
+                                <button class="ad-btn ad-block">Block Button</button>
+
+                                <button class="ad-btn ad-round">Round Button</button>
+
+                                <button class="ad-btn ad-flat ad-block btn-pink">Default Button</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
-    <button class="ad-btn ad-icon ad-round ad-flat btn-red">
-        <i class="fa fa-youtube"></i>
-    </button>
 
-    <hr>
+
+
+            <section class="ad-section">
+                <div class="wrapper">
+                    <div class="ad-row">
+                        <div class="ad-cols-4">
+                            <div class="ad-card bg-white">
+
+                                <h2 class="title">Button Styles</h2>
+                                <button class="ad-btn btn-blue clear">Clear Button</button>
+
+                                <button class="ad-btn btn-pink ad-round outline">Outline Button</button>
+                                <button class="ad-btn btn-dark ad-round outline">Outline Button</button>
+
+                            </div>
+                        </div>
+
+                        <div class="ad-cols-4">
+                            <div class="ad-card bg-white">
+                                <h2 class="title">Icos With Buttons</h2>
+                                <button class="ad-btn">Default Button</button>
+
+                                <button class="ad-btn ad-round ad-flat btn-pink">
+                                    <i class="fa fa-user"></i>
+                                    Select User
+                                </button>
+
+                                <button class="ad-btn">
+                                    <i class="fa fa-user"></i>
+                                </button>
+
+                                <button class="ad-btn ad-icon ad-round ad-flat btn-prim">
+                                    <i class="fa fa-twitter"></i>
+                                </button>
+
+                                <button class="ad-btn ad-icon ad-round ad-flat btn-blue">
+                                    <i class="fa fa-facebook"></i>
+                                </button>
+
+
+                                <button class="ad-btn ad-icon ad-round ad-flat btn-red">
+                                    <i class="fa fa-youtube"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="ad-cols-4">
+                            <div class="ad-card bg-white">
+                                <h2 class="title">Button Group</h2>
+
+                                <div class="ad-btn-group ad-round">
+                                    <button class="ad-btn btn-dark">
+                                        <i class="fa fa-twitter"></i>
+                                        Twitter
+                                    </button>
+                                    <button class="ad-btn btn-dark">
+                                        <i class="fa fa-facebook"></i>
+                                        Facebook
+                                    </button>
+
+                                    <button class="ad-btn btn-dark">
+                                        <i class="fa fa-youtube"></i>
+                                        Youtube
+                                    </button>
+
+                                </div>
+
+                                <h2 class="title">
+                                    Button Group with icons only
+                                </h2>
+                                <div class="ad-btn-group ad-round">
+                                        <button class="ad-btn btn-dark ad-icon">
+                                            <i class="fa fa-twitter"></i>
     
-    <div class="ad-btn-group ad-round">
-        <button class="ad-btn btn-dark">
-            <i class="fa fa-twitter"></i>
-            Twitter
-        </button>
-        <button class="ad-btn btn-dark">
-                <i class="fa fa-facebook"></i>
-                Facebook
-        </button>
+                                        </button>
+                                        <button class="ad-btn btn-dark ad-icon">
+                                            <i class="fa fa-facebook"></i>
+    
+                                        </button>
+    
+                                        <button class="ad-btn btn-dark ad-icon">
+                                            <i class="fa fa-youtube"></i>
+    
+                                        </button>
+    
+                                    </div>
 
-        <button class="ad-btn btn-dark">
-                <i class="fa fa-youtube"></i>
-                Youtube
-        </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="ad-section">
+                <div class="wrapper">
+                    <div class="ad-row">
+                        <div class="ad-cols-4">
+                            <div class="ad-card bg-white">
+                                
+                            </div>
+                        </div>
+                        <div class="ad-cols-4">
+                            <div class="ad-card bg-white">
+
+                                    <h2 class="title">Dropdown </h2>
+
+                                <div class="ad-dropdown">
+                                    <button class="ad-btn ad-trigger">Default Button</button>
+
+                                    <div class="ad-content">
+                                        <div class="ad-card bg-white">
+                                            <p>
+                                                Hello There
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Suscipit, reiciendis sequi vitae sit assumenda saepe exercitationem nemo magni voluptatibus quaerat? Voluptate nesciunt quo nulla asperiores dolores doloremque recusandae esse mollitia.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ad-cols-4">
+                            <div class="ad-card bg-white">
+                                <h2 class="title">Button Size</h2>
+
+
+                                <button class="ad-btn">Default Button</button>
+
+                                <button class="ad-btn ad-xs">xtra small Button</button>
+
+                                <button class="ad-btn ad-sm"> small Button</button>
+
+                                <button class="ad-btn ad-md">Medium Button</button>
+
+                                <button class="ad-btn ad-lg">large Button</button>
+
+                                <button class="ad-btn ad-lg ad-flat btn-pink ad-round ad-full">full Button</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        </router-outlet>
 
     </div>
 
-    <div class="ad-btn-group ad-round">
-            <button class="ad-btn btn-dark ad-icon">
-                <i class="fa fa-twitter"></i>
-               
-            </button>
-            <button class="ad-btn btn-dark ad-icon">
-                    <i class="fa fa-facebook"></i>
-                    
-            </button>
-    
-            <button class="ad-btn btn-dark ad-icon">
-                    <i class="fa fa-youtube"></i>
-                    
-            </button>
-    
-        </div>
 
-        <hr>
-
-
-
-
-
-<div class="ad-dropdown">
-        <button class="ad-btn ad-trigger">Default Button</button>
-
-        <div class="ad-content">
-           <div class="ad-card bg-white">
-            <p>
-                Hello There
-            </p>
-           </div>
-        </div>
-
-</div>
-
-<h2 class="ad-title">Button Size</h2>
-<br>
-
-<button class="ad-btn">Default Button</button>
-
-<button class="ad-btn ad-xs">xtra small Button</button>
-
-<button class="ad-btn ad-sm"> small Button</button>
-
-<button class="ad-btn ad-md">Medium Button</button>
-
-<button class="ad-btn ad-lg">large Button</button>
-
-<button class="ad-btn ad-lg ad-flat btn-pink ad-round ad-full">full Button</button>
-
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/air.design.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/air.design.js"></script>
+    <script src="js/airjax.js"></script>
 </body>
 
 </html>
