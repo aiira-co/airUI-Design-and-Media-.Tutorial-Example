@@ -1564,28 +1564,17 @@ footer {
   .ad-spinner.bg-tgreen {
     background-color: #19e3b1;
     color: #222c37; }
-  .ad-spinner:before {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    content: '';
-    left: 50%;
-    margin-left: -35px;
-    top: 50%;
-    margin-top: -35px;
-    border-radius: 50%;
-    border: 4px solid white; }
   .ad-spinner:after {
     position: absolute;
     width: 60px;
     height: 60px;
     content: '';
     left: 50%;
-    margin-left: -35px;
+    margin-left: -33px;
     top: 50%;
-    margin-top: -35px;
+    margin-top: -33px;
     border-radius: 50%;
-    border: 4px solid #ff0066;
+    border: 2px solid #ff0066;
     transform: scale(0.9);
     transition: all .3s ease-out;
     -webkit-animation: lds-rippleIn 0.4s cubic-bezier(0, 0.2, 0.8, 1) 1, lds-rotate 3s ease-in-out 0.5s infinite;
@@ -3128,9 +3117,8 @@ label.output {
     .ad-input span + input, ad-input span + input, .ad-input span + select, .ad-input ad-input span + select, ad-input span + select, .ad-input span + textarea, .ad-input ad-input span + textarea, ad-input span + textarea {
       text-indent: 40px; }
   .ad-input.outline input, ad-input.outline input, .ad-input.outline select, ad-input.outline select, .ad-input.outline textarea, ad-input.outline textarea {
-    border: 2px solid rgba(34, 44, 55, 0.1);
-    margin-left: -2px;
-    margin-top: -1px;
+    border: 1px solid rgba(34, 44, 55, 0.1);
+    margin-left: -1px;
     background-color: rgba(34, 44, 55, 0.01); }
   .ad-input.ad-error > label, ad-input.ad-error > label {
     font-weight: bold;
